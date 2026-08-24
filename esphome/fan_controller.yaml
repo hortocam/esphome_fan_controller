@@ -22,8 +22,11 @@ substitutions:
 esphome:
   name: ${device_name}
   friendly_name: UCG-Max Fan Controller
-  platform: ESP32
+
+esp32:
   board: nodemcu-32s
+  framework:
+    type: arduino
 
 # ############################### NETWORK #################################
 wifi:
