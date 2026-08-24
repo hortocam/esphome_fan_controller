@@ -1,0 +1,18 @@
+# Secrets - DO NOT COMMIT
+esphome/secrets.yaml
+
+# Python / venvs
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# ESPHome build artifacts
+.esphome/
+esphome/.esphome/
+
+# Editor
+.vscode/
+.idea/
+*.swp
