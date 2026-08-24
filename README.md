@@ -129,10 +129,21 @@ without touching firmware. See the script header for full options.
 ## Status
 
 - [x] Repo scaffold, ESPHome layout, bridge
-- [ ] Verify wiring / set pins
-- [ ] First flash + serial boot log
+- [x] `esphome config` validated — EXCEPT the placeholder GPIO pins (see below)
+- [ ] Verify wiring / set real pins (tach, PWM, OLED I2C)
+- [ ] Full build + first flash + serial boot log
 - [ ] OLED layout pass on real hardware
 - [ ] Failsafe E2E (kill MQTT, watch fan)
 - [ ] Enclosure + install
+
+> **Pin status (intentional):** `GPIO_NC` placeholders are left in for the tach
+> pulse_counter, the ledc fan PWM, and the OLED I2C pins. `esphome config`
+> will NOT pass clean until these are set to real GPIOs (pulse_counter requires
+> an integer pin). This is deliberate — wrong pins are the #1 cause of a dead
+> board, so pins are set from the actual board silkscreen, not guessed.
+>
+> **ESPHome version note:** config targets ESPHome ≥2026.x. The legacy
+> `platform: ESP32` key inside the `esphome:` block was removed in modern
+> releases — use the `esp32:` component with `framework: arduino` instead.
 
 MIT Licensed — see `LICENSE`.
