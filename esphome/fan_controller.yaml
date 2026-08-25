@@ -100,7 +100,7 @@ sensor:
   - platform: pulse_counter
     name: "Fan RPM"
     id: fan_rpm
-    pin: GPIO_NC         # << TACH pin - set per board
+    pin: GPIO34         # << TACH - NodeMCU-32S. 10k pull-up to 3.3V required
     update_interval: 5s
     filters:
       - multiply: 0.5   # 2 pulses per revolution on most 4-wire fans
@@ -109,7 +109,7 @@ sensor:
 output:
   - platform: ledc
     id: fan_pwm
-    pin: GPIO_NC         # << PWM pin - set per board
+    pin: GPIO25         # PWM (NodeMCU-32S). Noctua accepts 3.3V directly
     frequency: 25000 Hz  # 4-wire fan spec: 25 kHz PWM
 
 fan:
@@ -154,8 +154,8 @@ text_sensor:
 
 # ############################ OLED DISPLAY ############################
 i2c:
-  sda: GPIO_NC_SDA       # << set per board
-  scl: GPIO_NC_SCL
+  sda: GPIO21
+  scl: GPIO22
   scan: true
 
 display:
