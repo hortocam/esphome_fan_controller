@@ -141,8 +141,7 @@ interval:
             id(status_sensor).publish_state("ONLINE");
           }
           duty = clamp01(duty);
-          id(router_fan).turn_on();
-          id(router_fan).speed = duty;
+          id(router_fan).make_call().set_state(true).set_speed((int)round(duty * 100)).perform();
           id(fan_duty_sensor).publish_state(duty * 100.0f);
 
 text_sensor:
