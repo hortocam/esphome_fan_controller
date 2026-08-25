@@ -23,6 +23,11 @@ esp32:
   framework:
     type: arduino
 
+# Serial logging so `esphome run` / monitor shows the sweep, RPM, and I2C scan.
+logger:
+  level: DEBUG
+  baud_rate: 115200
+
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
