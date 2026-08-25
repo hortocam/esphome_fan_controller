@@ -69,7 +69,7 @@ interval:
           float t = (step % 100) / 99.0f;                 // 0..1 over 100 steps
           float duty = (step / 100) % 2 ? (1.0f - t) : t; // triangle wave 0->1->0
           id(router_fan).turn_on();
-          id(router_fan).speed_speed = duty;
+          id(router_fan).speed = duty;
           const char* label = duty < 0.01f ? "STOP" : duty < 0.34f ? "LOW " : duty < 0.67f ? "MID  " : "HIGH";
           id(bench_status).publish_state(label);
           step = (step + 1) % 200;
@@ -87,7 +87,7 @@ display:
     address: 0x3C
     update_interval: 1s
     lambda: |-
-      it.printf(0, 0, id(font_oled), "FAN  %3d %%", (int)round(id(router_fan).speed_speed * 100));
+      it.printf(0, 0, id(font_oled), "FAN  %3d %%", (int)round(id(router_fan).speed * 100));
       it.printf(0, 20, id(font_oled), "RPM  %5d", (int)round(id(fan_rpm).state));
       it.printf(0, 40, id(font_oled), "%s", id(bench_status).state.c_str());
 
