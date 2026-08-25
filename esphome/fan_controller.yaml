@@ -103,7 +103,7 @@ sensor:
     pin: GPIO34         # << TACH - NodeMCU-32S. 10k pull-up to 3.3V required
     update_interval: 5s
     filters:
-      - multiply: 0.5   # 2 pulses per revolution on most 4-wire fans
+      - multiply: 5.0    # pulse_counter is per-min; reading ~1690 at 100%, true ~17k
 
 # ############################ OUTPUT / FAN ##############################
 output:

@@ -55,7 +55,7 @@ sensor:
     pin: GPIO34
     update_interval: 2s
     filters:
-      - multiply: 0.5
+      - multiply: 5.0    # 2s interval -> RPM; ~10x under-read with 0.5
 
 text_sensor:
   - platform: template
