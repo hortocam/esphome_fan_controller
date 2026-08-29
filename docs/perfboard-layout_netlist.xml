@@ -1,0 +1,2144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+<netlist date="2026-08-29T13:49:45" sketch="perfboard-layout.fzz">
+ <net>
+  <connector id="connector0" name="GND">
+   <part id="92700" label="F1" title="Fan - 4 wire"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part id="82040" label="J1" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector21015" name="15.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector37" name="Pin 38">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector21017" name="17.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector5011" name="11.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector31" name="Pin 32">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector13" name="Pin 14">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector11011" name="11.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector18002" name="2.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector20017" name="17.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector22017" name="17.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector11016" name="16.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part id="91590" label="Grove1" title="Grove OLED 128x96"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part id="82060" label="J2" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector10015" name="15.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector19017" name="17.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector23017" name="17.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector11017" name="17.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="Pin 1">
+   <part id="77000" label="A2" title="usbc to 12V module"/>
+  </connector>
+  <connector id="connector11" name="11.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="Pin 2">
+   <part id="77000" label="A2" title="usbc to 12V module"/>
+  </connector>
+  <connector id="connector10017" name="17.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1011" name="11.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector18017" name="17.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector12017" name="17.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector10" name="10.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector9017" name="17.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector17017" name="17.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector13017" name="17.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector8017" name="17.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="IN-">
+   <part id="76950" label="U1" title="Mini-360 DC-DC Buck converter"/>
+  </connector>
+  <connector id="connector4015" name="15.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector4008" name="8.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector16017" name="17.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector14017" name="17.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector7017" name="17.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3" name="OUT-">
+   <part id="76950" label="U1" title="Mini-360 DC-DC Buck converter"/>
+  </connector>
+  <connector id="connector4016" name="16.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector4002" name="2.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector15017" name="17.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector6017" name="17.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector4017" name="17.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector5017" name="17.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3017" name="17.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2017" name="17.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1017" name="17.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector17" name="17.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18" name="Pin 19">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector23002" name="2.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector23000" name="0.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part id="97320" label="R2" title="10kΩ Resistor"/>
+  </connector>
+  <connector id="connector22000" name="0.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="1.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector21000" name="0.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="0.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2" name="OUT+">
+   <part id="76950" label="U1" title="Mini-360 DC-DC Buck converter"/>
+  </connector>
+  <connector id="connector2" name="2.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector20000" name="0.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1000" name="0.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector19000" name="0.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2000" name="0.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector18000" name="0.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3000" name="0.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector17000" name="0.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector4000" name="0.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector16000" name="0.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector5000" name="0.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector15000" name="0.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector6000" name="0.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector14000" name="0.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector7000" name="0.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector13000" name="0.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector8000" name="0.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector12000" name="0.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector9000" name="0.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector11000" name="0.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector10000" name="0.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="Tach">
+   <part id="92700" label="F1" title="Fan - 4 wire"/>
+  </connector>
+  <connector id="connector8" name="Pin 9">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector13002" name="2.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector19015" name="15.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector13001" name="1.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part id="82040" label="J1" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part id="82040" label="J1" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector4001" name="1.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector19014" name="14.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector18015" name="15.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part id="97320" label="R2" title="10kΩ Resistor"/>
+  </connector>
+  <connector id="connector18014" name="14.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector4" name="Pin 5">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector9002" name="2.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2" name="PWM">
+   <part id="92700" label="F1" title="Fan - 4 wire"/>
+  </connector>
+  <connector id="connector9001" name="1.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part id="102910" label="R3" title="10kΩ Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="SDA">
+   <part id="91590" label="Grove1" title="Grove OLED 128x96"/>
+  </connector>
+  <connector id="connector8015" name="15.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part id="82060" label="J2" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector32" name="Pin 33">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector8014" name="14.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector10011" name="11.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector10012" name="12.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="pin3">
+   <part id="82040" label="J1" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector1" name="IN+">
+   <part id="76950" label="U1" title="Mini-360 DC-DC Buck converter"/>
+  </connector>
+  <connector id="connector20015" name="15.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector8" name="8.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="Power">
+   <part id="92700" label="F1" title="Fan - 4 wire"/>
+  </connector>
+  <connector id="connector20014" name="14.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector7" name="7.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector20008" name="8.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1007" name="7.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2" name="Pin 3">
+   <part id="77000" label="A2" title="usbc to 12V module"/>
+  </connector>
+  <connector id="connector2011" name="11.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3" name="Pin 4">
+   <part id="77000" label="A2" title="usbc to 12V module"/>
+  </connector>
+  <connector id="connector20007" name="7.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3011" name="11.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2007" name="7.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector19007" name="7.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector21007" name="7.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3008" name="8.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3007" name="7.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector18007" name="7.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector22007" name="7.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector4007" name="7.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector17007" name="7.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector23007" name="7.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector5007" name="7.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector16007" name="7.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector6007" name="7.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector15007" name="7.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector7007" name="7.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector14007" name="7.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector8007" name="7.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector13007" name="7.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector9007" name="7.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector12007" name="7.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector10007" name="7.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector11007" name="7.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 1">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector5002" name="2.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part id="82060" label="J2" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector5001" name="1.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector9015" name="15.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part id="102910" label="R3" title="10kΩ Resistor"/>
+  </connector>
+  <connector id="connector9014" name="14.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="VCC">
+   <part id="91590" label="Grove1" title="Grove OLED 128x96"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector35" name="Pin 36">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector7011" name="11.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector7012" name="12.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector3" name="SCL">
+   <part id="91590" label="Grove1" title="Grove OLED 128x96"/>
+  </connector>
+  <connector id="connector7014" name="14.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector7015" name="15.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part id="82060" label="J2" title="Generic female header - 4 pins"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11" name="Pin 12">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector16002" name="2.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6" name="Pin 7">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector11002" name="2.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector28" name="Pin 29">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector14011" name="11.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19" name="Pin 20">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector23011" name="11.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17" name="Pin 18">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector22002" name="2.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector24" name="Pin 25">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector18011" name="11.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23" name="Pin 24">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector19011" name="11.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector29" name="Pin 30">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector13011" name="11.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21" name="Pin 22">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector21011" name="11.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector33" name="Pin 34">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector9011" name="11.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22" name="Pin 23">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector20011" name="11.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9" name="Pin 10">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector14002" name="2.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="Pin 3">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector7002" name="2.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12" name="Pin 13">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector17002" name="2.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector27" name="Pin 28">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector15011" name="11.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="Pin 6">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector10002" name="2.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="Pin 4">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector8002" name="2.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16" name="Pin 17">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector21002" name="2.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector36" name="Pin 37">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector6011" name="11.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7" name="Pin 8">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector12002" name="2.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector34" name="Pin 35">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector8011" name="11.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 2">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector6002" name="2.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="Pin 16">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector20002" name="2.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector30" name="Pin 31">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector12011" name="11.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20" name="Pin 21">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector22011" name="11.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10" name="Pin 11">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector15002" name="2.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector25" name="Pin 26">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector17011" name="11.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector26" name="Pin 27">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector16011" name="11.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14" name="Pin 15">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector19002" name="2.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13015" name="15.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18004" name="4.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8008" name="8.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15015" name="15.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11005" name="5.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13010" name="10.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4010" name="10.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3015" name="15.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21005" name="5.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5010" name="10.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8016" name="16.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19013" name="13.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5012" name="12.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19004" name="4.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6004" name="4.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9004" name="4.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6006" name="6.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11001" name="1.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18001" name="1.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12001" name="1.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10004" name="4.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11003" name="3.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18012" name="12.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="4.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20012" name="12.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10010" name="10.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16010" name="10.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9013" name="13.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5016" name="16.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1004" name="4.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21016" name="16.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18010" name="10.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16003" name="3.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6009" name="9.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2009" name="9.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1013" name="13.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20016" name="16.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14009" name="9.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22004" name="4.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15010" name="10.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19010" name="10.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14016" name="16.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11009" name="9.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8009" name="9.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15014" name="14.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3005" name="5.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17012" name="12.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22016" name="16.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23016" name="16.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5003" name="3.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2001" name="1.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17004" name="4.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14013" name="13.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6008" name="8.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4004" name="4.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12003" name="3.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="5.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3002" name="2.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21008" name="8.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8003" name="3.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7004" name="4.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3004" name="4.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12013" name="13.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9008" name="8.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3013" name="13.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4013" name="13.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17014" name="14.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15005" name="5.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9012" name="12.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22006" name="6.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23008" name="8.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19009" name="9.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7003" name="3.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3003" name="3.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21012" name="12.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22012" name="12.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23003" name="3.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7001" name="1.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22008" name="8.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1016" name="16.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9009" name="9.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1001" name="1.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14001" name="1.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23013" name="13.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11015" name="15.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4003" name="3.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8004" name="4.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3009" name="9.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16" name="16.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22013" name="13.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6003" name="3.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11010" name="10.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2016" name="16.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16012" name="12.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20003" name="3.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17009" name="9.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1015" name="15.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2015" name="15.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13013" name="13.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21004" name="4.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5014" name="14.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12016" name="16.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12010" name="10.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1012" name="12.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22009" name="9.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7009" name="9.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23006" name="6.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21006" name="6.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19001" name="1.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3006" name="6.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2005" name="5.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2002" name="2.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17003" name="3.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5004" name="4.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20005" name="5.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2003" name="3.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23015" name="15.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4006" name="6.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16006" name="6.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22003" name="3.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8005" name="5.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15009" name="9.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2006" name="6.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17013" name="13.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17001" name="1.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20004" name="4.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8012" name="12.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11006" name="6.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15008" name="8.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5015" name="15.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13003" name="3.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2014" name="14.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19003" name="3.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16009" name="9.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23012" name="12.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1003" name="3.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4009" name="9.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10006" name="6.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11014" name="14.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18016" name="16.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3010" name="10.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9016" name="16.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14014" name="14.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10016" name="16.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4012" name="12.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18005" name="5.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11004" name="4.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21013" name="13.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19008" name="8.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1006" name="6.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22010" name="10.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13008" name="8.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19005" name="5.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17015" name="15.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8010" name="10.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3016" name="16.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12" name="12.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14005" name="5.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10008" name="8.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20013" name="13.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="3.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21001" name="1.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18003" name="3.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6013" name="13.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10009" name="9.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2013" name="13.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5008" name="8.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7013" name="13.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9005" name="5.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1014" name="14.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1002" name="2.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7016" name="16.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12015" name="15.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14015" name="15.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18008" name="8.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15016" name="16.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23010" name="10.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17010" name="10.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9003" name="3.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16004" name="4.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23014" name="14.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20009" name="9.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1005" name="5.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16005" name="5.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20010" name="10.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2004" name="4.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17006" name="6.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20001" name="1.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18013" name="13.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15012" name="12.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11008" name="8.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12004" name="4.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9006" name="6.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19016" name="16.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9" name="9.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14004" name="4.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22001" name="1.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17005" name="5.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7010" name="10.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12006" name="6.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13005" name="5.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14010" name="10.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10013" name="13.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4005" name="5.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12009" name="9.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6012" name="12.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7008" name="8.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21003" name="3.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2008" name="8.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5006" name="6.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4011" name="11.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16016" name="16.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19006" name="6.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6015" name="15.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17016" name="16.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6" name="6.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11013" name="13.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21014" name="14.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector19012" name="12.19">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3012" name="12.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2010" name="10.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7005" name="5.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4014" name="14.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12014" name="14.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1008" name="8.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8001" name="1.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13" name="13.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6016" name="16.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16013" name="13.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14003" name="3.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18006" name="6.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20006" name="6.20">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1009" name="9.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10005" name="5.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15013" name="13.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15001" name="1.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13016" name="16.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8006" name="6.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6010" name="10.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16001" name="1.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13004" name="4.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15004" name="4.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13014" name="14.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="15.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14012" name="12.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6001" name="1.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12005" name="5.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23001" name="1.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23004" name="4.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15006" name="6.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10003" name="3.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8013" name="13.8">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13009" name="9.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15003" name="3.15">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3014" name="14.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12012" name="12.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10014" name="14.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6005" name="5.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1010" name="10.1">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16014" name="14.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14008" name="8.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12008" name="8.12">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22014" name="14.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14006" name="6.14">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22005" name="5.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23009" name="9.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5005" name="5.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5013" name="13.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21010" name="10.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10001" name="1.10">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23005" name="5.23">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3001" name="1.3">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13006" name="6.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6014" name="14.6">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2012" name="12.2">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13012" name="12.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11012" name="12.11">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9010" name="10.9">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22015" name="15.22">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16015" name="15.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18009" name="9.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17008" name="8.17">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21009" name="9.21">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5009" name="9.5">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7006" name="6.7">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16008" name="8.16">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14" name="14.0">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+ </net>
+</netlist>
