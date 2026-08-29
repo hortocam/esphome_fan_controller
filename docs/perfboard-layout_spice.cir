@@ -1,0 +1,10 @@
+perfboard-layout
+R2 2 5 10k
+R3 1 6 10k
+
+.option savecurrents
+.option interp
+.OP
+*.TRAN 1ms 100ms
+* .AC DEC 100 100 1MEG
+.END
