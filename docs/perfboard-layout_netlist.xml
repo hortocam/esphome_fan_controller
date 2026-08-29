@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Created with Fritzing (https://fritzing.org/) -->
-<netlist date="2026-08-29T13:49:45" sketch="perfboard-layout.fzz">
+<netlist date="2026-08-29T13:55:39" sketch="perfboard-layout.fzz">
  <net>
   <connector id="connector0" name="GND">
    <part id="92700" label="F1" title="Fan - 4 wire"/>
@@ -243,37 +243,13 @@
   <connector id="connector3" name="Tach">
    <part id="92700" label="F1" title="Fan - 4 wire"/>
   </connector>
-  <connector id="connector8" name="Pin 9">
-   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
-  </connector>
-  <connector id="connector13002" name="2.13">
-   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
-  </connector>
   <connector id="connector19015" name="15.19">
-   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
-  </connector>
-  <connector id="connector13001" name="1.13">
    <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
   </connector>
   <connector id="connector1" name="pin2">
    <part id="82040" label="J1" title="Generic female header - 4 pins"/>
   </connector>
-  <connector id="connector0" name="pin1">
-   <part id="82040" label="J1" title="Generic female header - 4 pins"/>
-  </connector>
-  <connector id="connector4001" name="1.4">
-   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
-  </connector>
   <connector id="connector19014" name="14.19">
-   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
-  </connector>
-  <connector id="connector18015" name="15.18">
-   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
-  </connector>
-  <connector id="connector1" name="Pin 1">
-   <part id="97320" label="R2" title="10kΩ Resistor"/>
-  </connector>
-  <connector id="connector18014" name="14.18">
    <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
   </connector>
   <connector id="connector4" name="Pin 5">
@@ -282,14 +258,40 @@
   <connector id="connector9002" name="2.9">
    <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
   </connector>
-  <connector id="connector2" name="PWM">
-   <part id="92700" label="F1" title="Fan - 4 wire"/>
-  </connector>
   <connector id="connector9001" name="1.9">
    <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
   </connector>
   <connector id="connector0" name="Pin 0">
    <part id="102910" label="R3" title="10kΩ Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4001" name="1.4">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector13001" name="1.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part id="97320" label="R2" title="10kΩ Resistor"/>
+  </connector>
+  <connector id="connector8" name="Pin 9">
+   <part id="76780" label="A1" title="ESP32 38Pin narrow"/>
+  </connector>
+  <connector id="connector13002" name="2.13">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector18014" name="14.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part id="82040" label="J1" title="Generic female header - 4 pins"/>
+  </connector>
+  <connector id="connector18015" name="15.18">
+   <part id="76760" label="Perfboard1" title="basic single-sided perfboard"/>
+  </connector>
+  <connector id="connector2" name="PWM">
+   <part id="92700" label="F1" title="Fan - 4 wire"/>
   </connector>
  </net>
  <net>
