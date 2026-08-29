@@ -39,6 +39,29 @@ USB-C PD trigger module  (CH224K, strapped for 12 V)
 - **TACH GPIO34 ← fan tach**, with **10 kΩ pull-up to 3.3 V** (the ESP's 3.3 V,
   NOT the 12 V rail).
 
+## Pinout — CONFIRMED against Fritzing netlist (2026-08-29)
+
+The perfboard layout (`perfboard-layout.fzz`) was verified by parsing the exported
+netlist XML against the firmware pin map. These positions are the physical NodeMCU-32S
+pins (Fritzing 38-pin part):
+
+| Signal | ESP32 GPIO | Fritzing Pin | Netlist status |
+|--------|-----------|--------------|----------------|
+| OLED SDA | GPIO21 | Pin 33 | ✅ verified |
+| OLED SCL | GPIO22 | Pin 36 | ✅ verified |
+| Fan PWM  | GPIO25 | Pin 9  | ✅ verified |
+| Fan TACH | GPIO34 | Pin 5  | ✅ verified |
+| OLED VCC | 3.3 V    | Pin 1  | ✅ verified |
+| ESP32 5V | V5       | Pin 19 | ✅ verified |
+| GND (common) | —   | Pins 14/32/38 | ✅ verified |
+
+Pull-ups confirmed: **R2 (10 kΩ)**: PWM/GPIO25 → 5 V rail (failsafe fail-open).
+**R3 (10 kΩ)**: TACH/GPIO34 → 3.3 V rail.
+
+> **Fritzing gotcha:** the fan 4-wire breakout's **pins in the part are NOT in physical
+> order** — that earlier swapped PWM/TACH at the ESP32 (both were wired to the opposite
+> GPIO). Fixed at the fan component. Verify with the netlist, never the rendered image.
+
 ## PD supply requirements
 
 - The surplus PSU must actually **advertise a 12 V PDO**. The list
