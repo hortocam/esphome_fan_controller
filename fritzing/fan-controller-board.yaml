@@ -1,0 +1,14 @@
+meta:
+  title: Fan Controller Perfboard + Power Busses
+width: 50.5
+height: 100.5
+board:
+  - grid:
+      components:
+        - shared_bus:        # 12V column
+          - bus: A1:A36      # column A shorted
+        - shared_bus:        # 5V column
+          - bus: C1:C36
+        - shared_bus:        # GND column
+          - bus: E1:E36
+        - drilled_rows: G2:Z36   # isolated pads for the rest
