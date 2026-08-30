@@ -1,5 +1,6 @@
 meta:
   title: Fan Controller Perfboard + Power Busses
+  label: Fan Controller Perfboard
 width: 50.5
 height: 100.5
 board:
