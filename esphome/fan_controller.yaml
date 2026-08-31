@@ -23,6 +23,9 @@ esphome:
   name: ${device_name}
   friendly_name: UCG-Max Fan Controller
 
+logger:
+  level: DEBUG
+
 esp32:
   board: nodemcu-32s
   framework:
