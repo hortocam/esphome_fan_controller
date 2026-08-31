@@ -106,7 +106,7 @@ sensor:
     pin: GPIO34         # << TACH - NodeMCU-32S. 10k pull-up to 3.3V required
     update_interval: 5s
     filters:
-      - multiply: 5.0    # pulse_counter is per-min; reading ~1690 at 100%, true ~17k
+      - multiply: 0.5    # 2 pulses/rev; 100% = 3000 RPM (was 5.0 = 10x too high)
 
 # ############################ OUTPUT / FAN ##############################
 output:
@@ -168,9 +168,9 @@ display:
     update_interval: 1s
     lambda: |-
       it.printf(0, 0, id(font_oled), "TEMP %5.1f C", id(current_temp));
-      it.printf(0, 18, id(font_oled), "FAN %3d %%", (int)round(id(fan_duty_sensor).state));
-      it.printf(0, 36, id(font_oled), "RPM %5d", (int)round(id(fan_rpm).state));
-      it.printf(0, 54, id(font_oled), "%s", id(status_sensor).state.c_str());
+      it.printf(0, 16, id(font_oled), "FAN %3d %%", (int)round(id(fan_duty_sensor).state));
+      it.printf(0, 32, id(font_oled), "RPM %5d", (int)round(id(fan_rpm).state));
+      it.printf(0, 48, id(font_oled), "%s", id(status_sensor).state.c_str());
 
 font:
   - id: font_oled
