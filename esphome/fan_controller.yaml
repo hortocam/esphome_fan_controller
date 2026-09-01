@@ -97,11 +97,10 @@ sensor:
     qos: 1
     on_value:
       - lambda: |-
-          ESP_LOGD("fan", "MQTT temp received: '%s'", x.c_str());
-          float t = parse_number<float>(x).value_or(0.0f);
-          id(current_temp) = t;
+          ESP_LOGD("fan", "MQTT temp received: %.1f", x);
+          id(current_temp) = x;
           id(last_temp_seen) = millis();
-          id(router_temp_sensor).publish_state(t);
+          id(router_temp_sensor).publish_state(x);
 
 # ############################ OUTPUT / FAN ##############################
 output:
