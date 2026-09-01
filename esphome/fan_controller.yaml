@@ -26,6 +26,14 @@ esphome:
 logger:
   level: DEBUG
 
+ota:
+  - platform: esphome
+    password: !secret ota_password
+
+api:
+  encryption:
+    key: !secret api_encryption_key
+
 esp32:
   board: nodemcu-32s
   framework:
