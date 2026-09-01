@@ -53,28 +53,6 @@ mqtt:
   discovery: true
   discovery_retain: true
 
-  on_message:
-    # Temperature published by the Prometheus->MQTT bridge, in degrees Celsius.
-    - topic: homelab/ucgmax/temperature
-      payload: "*"
-      qos: 1
-      then:
-        lambda: |-
-          ESP_LOGD("fan", "MQTT temp received: '%s'", x.c_str());
-          float t = parse_number<float>(x).value_or(0.0f);
-          id(current_temp) = t;
-          id(last_temp_seen) = millis();
-          id(router_temp_sensor).publish_state(t);
-
-    # Any other topic touching the device keeps the failsafe from firing;
-    # extend with per-sensor topics as needed.
-    - topic: "homelab/ucgmax/#"
-      payload: "*"
-      qos: 1
-      then:
-        lambda: |-
-          id(last_temp_seen) = millis();
-
 # ############################ SENSORS ####################################
 globals:
   - id: current_temp
@@ -108,6 +86,22 @@ sensor:
     update_interval: 5s
     filters:
       - multiply: 0.5    # 2 pulses/rev; 100% = 3000 RPM (was 5.0 = 10x too high)
+
+  # Subscribe to the router temp published by the Prometheus->MQTT bridge.
+  # mqtt_subscribe is the reliable way to react to a topic (the top-level
+  # mqtt: on_message: trigger was flaky and never fired on this device).
+  - platform: mqtt_subscribe
+    name: "Router Temp (MQTT)"
+    id: mqtt_temp
+    topic: homelab/ucgmax/temperature
+    qos: 1
+    on_value:
+      - lambda: |-
+          ESP_LOGD("fan", "MQTT temp received: '%s'", x.c_str());
+          float t = parse_number<float>(x).value_or(0.0f);
+          id(current_temp) = t;
+          id(last_temp_seen) = millis();
+          id(router_temp_sensor).publish_state(t);
 
 # ############################ OUTPUT / FAN ##############################
 output:
