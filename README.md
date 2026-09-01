@@ -130,10 +130,10 @@ without touching firmware. See the script header for full options.
 
 - [x] Repo scaffold, ESPHome layout, bridge
 - [x] `esphome config` validated — EXCEPT the placeholder GPIO pins (see below)
-- [ ] Verify wiring / set real pins (tach, PWM, OLED I2C)
-- [ ] Full build + first flash + serial boot log
-- [ ] OLED layout pass on real hardware
-- [ ] Failsafe E2E (kill MQTT, watch fan)
+- [x] Verify wiring / set real pins (tach, PWM, OLED I2C)
+- [x] Full build + first flash + serial boot log
+- [x] OLED layout pass on real hardware
+- [x] Failsafe E2E (kill MQTT, watch fan)
 - [ ] Enclosure + install
 
 > **Pin status (intentional):** `GPIO_NC` placeholders are left in for the tach
