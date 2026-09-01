@@ -60,6 +60,7 @@ mqtt:
       qos: 1
       then:
         lambda: |-
+          ESP_LOGD("fan", "MQTT temp received: '%s'", x.c_str());
           float t = parse_number<float>(x).value_or(0.0f);
           id(current_temp) = t;
           id(last_temp_seen) = millis();
