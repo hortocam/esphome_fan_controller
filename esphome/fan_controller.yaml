@@ -117,8 +117,9 @@ fan:
     speed_count: 100
 
 # ########################## FAILSAFE + FAN CURVE #########################
-# Fan curve is tuned to SNMP/tsens temps, NOT the surface probe (which reads
-# ~17-18C low). <45C->20% | 45-65C linear 20->100% | >65C->100%.
+# Fan = Noctua NF-PPC3000 (3000 RPM max). The old controller held temp at
+# ~1600-1750 RPM (~55% duty) under load. The curve must keep the fan there.
+# <45C -> 45% | 45-60C linear 45->100% | >60C -> 100%
 interval:
   - interval: 5s
     then:
@@ -132,9 +133,9 @@ interval:
             id(status_sensor).publish_state("STALE");
           } else {
             float t = id(current_temp);
-            duty = (t <= 45.0f) ? 0.20f
-                 : (t >= 65.0f) ? 1.00f
-                 : 0.20f + (t - 45.0f) / 20.0f * 0.80f;
+            duty = (t <= 45.0f) ? 0.45f
+                 : (t >= 60.0f) ? 1.00f
+                 : 0.45f + (t - 45.0f) / 15.0f * 0.55f;
             id(status_sensor).publish_state("ONLINE");
           }
           duty = clamp01(duty);
