@@ -24,11 +24,12 @@ esphome:
   friendly_name: UCG-Max Fan Controller
 
 # Reports the reason for the last boot (brownout, watchdog, panic, ...).
-# Exposed as a text sensor in HA/MQTT — answers "why did it reboot?" after
-# the fact, which the runtime logs can't (they're lost on a hard reset).
+# The debug component itself only takes update_interval; the actual
+# reset_reason text sensor is a separate debug-platform text_sensor (see
+# below) — it answers "why did it reboot?" after the fact, since runtime
+# logs are lost on a hard reset.
 debug:
   update_interval: 60s
-  reset_reason: true
 
 logger:
   level: DEBUG
@@ -167,6 +168,12 @@ text_sensor:
     update_interval: never
     lambda: |-
       return "BOOT";
+
+  # Why the chip last restarted (brownout, watchdog, panic, ...).
+  # Human-readable, survives hard resets, published to MQTT/HA.
+  - platform: debug
+    reset_reason:
+      name: "Reset Reason"
 
 # ############################ OLED DISPLAY ############################
 i2c:
