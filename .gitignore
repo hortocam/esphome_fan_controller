@@ -12,6 +12,9 @@ venv/
 .esphome/
 esphome/.esphome/
 
+# OTA log capture (background aioesphomeapi-logs output)
+logs/
+
 # Editor
 .vscode/
 .idea/

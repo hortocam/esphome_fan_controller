@@ -23,6 +23,13 @@ esphome:
   name: ${device_name}
   friendly_name: UCG-Max Fan Controller
 
+# Reports the reason for the last boot (brownout, watchdog, panic, ...).
+# Exposed as a text sensor in HA/MQTT — answers "why did it reboot?" after
+# the fact, which the runtime logs can't (they're lost on a hard reset).
+debug:
+  update_interval: 60s
+  reset_reason: true
+
 logger:
   level: DEBUG
 
@@ -154,8 +161,12 @@ text_sensor:
   - platform: template
     name: "Fan Controller Status"
     id: status_sensor
+    # The 5s fan-curve interval owns this sensor via publish_state().
+    # update_interval: never stops the template sensor from re-evaluating
+    # its lambda every 60s and clobbering ONLINE/STALE with a stale "BOOT".
+    update_interval: never
     lambda: |-
-      return id(last_temp_seen) == 0 ? "NO DATA" : "BOOT";
+      return "BOOT";
 
 # ############################ OLED DISPLAY ############################
 i2c:
